@@ -1719,3 +1719,47 @@ $contact->add_message($_POST['message'], 'Message', 10);
 
 echo $contact->send();
 ?>
+/* Estilos generales para los iconos y textos */
+.icon-box {
+  text-align: center;
+  padding: 20px;
+}
+
+.icon-box i {
+  font-size: 2rem; /* Ajusta el tamaño del ícono */
+  display: block;
+  margin-bottom: 10px;
+}
+
+.icon-box h3 {
+  font-size: 1.2rem; /* Ajusta el tamaño del texto del título */
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 576px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los elementos horizontalmente */
+  }
+
+  .col-xl-2,
+  .col-md-4 {
+    flex: 1 1 auto;
+    max-width: 100%; /* Asegura que las columnas ocupen el 100% del ancho */
+    text-align: center; /* Centra el contenido dentro de las columnas */
+    margin-bottom: 20px; /* Añade espacio entre las filas */
+  }
+
+  .icon-box {
+    padding: 10px; /* Reduce el padding en móviles */
+  }
+
+  .icon-box i {
+    font-size: 3rem; /* Aumenta el tamaño del ícono en móviles */
+  }
+
+  .icon-box h3 {
+    font-size: 1.5rem; /* Aumenta el tamaño del texto en móviles */
+  }
+}
