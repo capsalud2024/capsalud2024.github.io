@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
- HEAD
-
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
- 5a14a5e (Primer commit del proyecto)
-    <mapping directory="$PROJECT_DIR$/capsalud2024.github.io" vcs="Git" />
   </component>
 </project>
